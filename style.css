@@ -1,0 +1,359 @@
+.white {
+  position: relative;
+  display: flex;
+  height: 45px;
+}
+
+.white h1 {
+  color: white;
+}
+
+.nav {
+  width: 100vw;
+  position: fixed;
+  height: 45px;
+  background: #333333;
+  opacity: 0.95;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.navBtns {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBtns a {
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 44px;
+  font-size: 12px;
+  color: #a9a9b1;
+}
+
+.navBtns a:hover {
+  color: #f5f5f7;
+}
+
+.navBtns img {
+  height: 45px;
+  margin-top: 20px;
+}
+
+.magnify {
+  height: 100px;
+  margin-top: 40px;
+}
+
+.red {
+  height: 50px;
+  color: #ffffff;
+  background: #e34040;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.red a {
+  color: #fff;
+  text-decoration: none;
+}
+.red a:hover {
+  text-decoration: underline;
+}
+.top h2 {
+  padding: 5px;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 50px;
+}
+
+.separator {
+  background-color: #fff;
+  height: 1rem;
+}
+
+.holiday {
+  height: 70vh;
+  background: #eaf2fc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.holiday .heart {
+  height: 10vh;
+  margin-top: 20px;
+}
+.holiday p {
+  font-size: 17px;
+}
+
+.holiday .calido {
+  height: 39vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.holiday .calido img {
+  height: 39vh;
+  margin: 0 40px;
+  animation: spinAround 30s forwards 0.2 ease-in-out;
+}
+
+@keyframes spinAround {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pro {
+  height: 70vh;
+  background: url(/imgs/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg) no-repeat
+    center center/cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10vh;
+}
+
+.pro h6 {
+  font-size: x-large;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.pro p {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.pro a {
+  margin: 0 30px;
+}
+
+.thirteen {
+  height: 70vh;
+  background: url(/imgs/hero_iphone_13__f194u1rdooeq_large_2x.jpg) no-repeat
+    center center/cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10vh;
+}
+
+.thirteen h2 {
+  color: #fff;
+}
+.thirteen h6 {
+  font-size: x-large;
+  color: #fec2ea;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.thirteen p {
+  color: #fec2ea;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.thirteen p span a {
+  margin: 0 30px;
+}
+
+.second {
+  display: grid;
+  grid-template-areas:
+    "top two"
+    "three four"
+    "five six ";
+
+  grid-gap: 1rem;
+}
+
+.bar {
+  background-color: #f4f4f4;
+  text-align: center;
+  height: 75vh;
+  padding: 5vh;
+}
+
+.bar:hover {
+  cursor: pointer;
+}
+
+.bar h2 {
+  padding: 5px;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 35px;
+}
+
+.bar h6 {
+  font-size: large;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.bar p {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.bar p span a {
+  margin: 0 30px;
+}
+
+.bar img {
+  height: 35px;
+}
+.book {
+  grid-area: top;
+  background: url(/imgs/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg) no-repeat
+    center center/cover;
+}
+
+.watch {
+  grid-area: two;
+  background: url(/imgs/tile_watch__e9n11b6m6yq2_medium_2x.jpg) no-repeat center
+    center/cover;
+  padding: 1vh;
+}
+.watch img {
+  height: 50px;
+}
+.watchAbove {
+  color: red;
+}
+.pod {
+  grid-area: three;
+  background: url(/imgs/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg) no-repeat
+    center center/cover;
+}
+.arcade {
+  grid-area: four;
+  background: url(/imgs/tile_lego_castaways__d2v36ez91ewm_large_2x.jpg)
+    no-repeat center center/cover;
+}
+
+.card {
+  grid-area: five;
+  background: url(/imgs/tile__cauwwcyyn9hy_medium_2x.jpg) no-repeat center
+    center/cover;
+}
+
+.tv {
+  grid-area: six;
+  background: url(/imgs/promo_dickinson__c9ea4l2f5rki_medium_2x.jpg) no-repeat
+    center center/cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tv .below img {
+  height: 150px;
+}
+
+.tv a {
+  color: white;
+  text-decoration: none;
+}
+.tv a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #f5f5f7;
+}
+
+footer .container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.toptext {
+  padding-top: 16px;
+  color: #6e6e73;
+  line-height: 16px;
+  font-size: 12px;
+}
+.uls {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-top: 1px #d7d7dd solid;
+
+  color: #424245;
+  line-height: 26px;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.uls ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.uls .heading {
+  color: #1d1d1f;
+  font-weight: 600;
+}
+.uls a {
+  color: #424245;
+  text-decoration: none;
+}
+
+.uls a:hover {
+  text-decoration: underline;
+}
+
+.number {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  color: #6e6e73;
+  line-height: 16px;
+  font-size: 12px;
+  border-bottom: 1px #d7d7dd solid;
+}
+
+.pageBottom {
+  padding-top: 16px;
+  padding-bottom: 25px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #6e6e73;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.pageBottom a {
+  color: #424245;
+  text-decoration: none;
+}
+
+.pageBottom a:hover {
+  text-decoration: underline;
+}
+
+.pageBottom .USA {
+  color: #424245;
+  padding-left: 150px;
+}
