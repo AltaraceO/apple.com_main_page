@@ -1,0 +1,30 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(/fonts/SF-UI-Display-Regular.otf);
+}
+
+body {
+  font-family: "SF Pro Display";
+  font-size: 62.5%;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.blueAs {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.blueAs:hover {
+  text-decoration: underline;
+}
+
+.box:hover {
+  cursor: pointer;
+}
